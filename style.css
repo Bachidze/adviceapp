@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Manrope;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #202733;
+}
+
+.container{
+    width: 343px;
+    height: 315px;
+    background-color: #313A48;
+    margin-top: 120px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.10);
+}
+
+h2{
+    color: #CEE3E9;
+    font-size: 24px;
+    font-family: Manrope;
+    font-weight: 800;
+    word-wrap: break-word;
+    width: 340px;
+}
+
+h4{
+    padding-top: 40px;
+    padding-bottom: 24px;
+    color: #53FFAA;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 3.46px;
+    word-wrap: break-word;
+}
+
+button{
+    position: absolute;
+    bottom: -23px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 145px;
+    background-color: #53FFAA;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button svg{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    animation: spin 1s linear infinite;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.border{
+    height: 1px;
+    width: 35%;
+    background-color:#4F5D74;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
