@@ -30,6 +30,8 @@ h2{
     font-weight: 800;
     word-wrap: break-word;
     width: 340px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 h4{
